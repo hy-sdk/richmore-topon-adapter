@@ -1,4 +1,4 @@
 install:
-  - FILE="-Dfile=richmob.aar"
+  - FILE="-Dfile=richmore-topon-adapter.aar"
   - mvn install:install-file $FILE -DgroupId=com.hy -DartifactId=richmore-topon-adapter -Dversion=1.8.1 -Dpackaging=aar -DpomFile=pom.xml
 
